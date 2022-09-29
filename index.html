@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <h1 id="title">
+    Product Survey Form</h1>
+</head>
+
+<body>
+<p id="description"> 
+    Thank you for taking the time to take this survey!</p>
+
+<form id="survey-form">
+
+<div class="input-heading">
+
+ <label id="name-label"><b>
+  Name:</b></label>
+  <input type="text" id="name" placeholder="Gregory George" class="form-inputs" required>
+<br> 
+
+<label id="email-label"><b>
+  Email:</b></label>
+  <input type="email" id="email" placeholder="Ex:john@gmail.com" class="form-inputs" required>
+<br>
+
+<label id="number-label"><b>
+  Age:</b></label>
+  <input type="number" id="number" min="20" max="120" class="form-inputs" placeholder="21">
+<br>
+
+<label for="dropdown" id="product"><b>
+  How long have you used this Product?</b></label>
+<br>
+  <select id="dropdown" required class="form-inputs">
+    <option value="0">1-6 months</option>
+    <option value="1">6+ months</option>
+    <option value="1">1+ year</option>
+    <option value="1">2+ years</option>
+    <option value="1">4+ years</option>
+    <option value="1">6+ years</option>
+  </select>
+<br>
+<br>
+
+  <label for="radio" id="radio"><b>
+    Did you enjoy this Product? </b></label>
+  <br>
+  <input id="radio" type="radio" id="yes" name="radio" value="Yes">
+    <label for="radio">Yes</label>
+    <input id="radio" type="radio" id="no" name="radio" value="No">
+    <label for="radio">No</label>
+<br>
+<br>
+
+<label for="colors"><b> 
+  What colors would you like to see? </b></label>
+<br>
+  <input id="checkbox" type="checkbox" name="colors" value="Red">
+  <label for="checkbox">Red</label>
+<br>
+  <input id="checkbox" type="checkbox" name="colors" value="Blue">
+  <label for="checkbox">Blue</label>
+<br>
+  <input id="checkbox" type="checkbox" name="colors" value="Green">
+  <label for="checkbox">Green</label>
+<br>
+  <input id="checkbox" type="checkbox" name="colors" value="Yellow">
+  <label for="checkbox">Yellow</label>
+<br>
+ <input id="checkbox" type="checkbox" name="colors" value="Violet">
+  <label for="checkbox">Violet</label>
+<br>
+  <input id="checkbox" type="checkbox" name="colors" value="Teal">
+  <label for="checkbox">Teal</label>
+<br>
+      
+  <label id="textarea">Comments:</label>
+<br>
+  <textarea id="textarea" name="instructions" rows="6" cols="40">
+
+    </textarea>
+<br>
+
+  <input id="submit" type="submit" value="Submit Form" class="submit-button">
+
+</div>
+</form>
+
+</body>
+</html>
